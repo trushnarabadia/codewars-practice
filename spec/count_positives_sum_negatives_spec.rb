@@ -15,4 +15,8 @@ describe 'count of positives and sum of negatives' do
     it 'should return 2 when given positive 1 and 2' do
       expect(count_positives_sum_negatives([1, 2])).to eq 2
     end
+
+    it 'should return -5 when given -3 and -2' do
+        expect(count_positives_sum_negatives([-3, -2])).to eq -5
+      end
 end
