@@ -1,9 +1,9 @@
 def makeNegative(number)
-  if number == 1
-    return -1
+  if number > 0
+    return -number 
   end
 
-  if number == -1
-    return -1 
+  if number < 0
+    return number 
   end
 end
