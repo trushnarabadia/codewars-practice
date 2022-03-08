@@ -20,4 +20,8 @@ describe 'return negative' do
   it 'returns -1 when given -1' do 
     expect(makeNegative(-1)).to eq -1
   end
+
+  it 'returns 0 when given 0' do 
+    expect(makeNegative(0)).to eq 0
+  end
 end
