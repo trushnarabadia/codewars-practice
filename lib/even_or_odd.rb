@@ -1,7 +1,7 @@
 def even_or_odd(number)
-  if number == 8 
+  if number % 2 == 0
     return 'Even'
-  elsif number == 1 
+  else
     return 'Odd'
   end
 end
